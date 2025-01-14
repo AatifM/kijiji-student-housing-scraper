@@ -53,7 +53,7 @@ The scraper will create an Excel file named `kijiji_student_housing.xlsx` contai
 
 You can modify the script to adjust how it collects data and behaves. Here are a few areas you can customize:
 
-### 1. **Base URL and Search URL**
+### 1. **Search URL**
    - The code will ask you for a URL and you should give it the page you want the listing scraped from.
    - You will have to give it each individual page if there is multiple pages of results and it will generate another file.
 
