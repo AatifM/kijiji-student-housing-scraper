@@ -59,7 +59,7 @@ You can modify the script to adjust how it collects data and behaves. Here are a
 
    Example:
    ```python
-   Enter url: 'https://www.kijiji.ca/' 'https://www.kijiji.ca/b-toronto-on/student-housing/k0l1700273?address=Toronto%2C%20ON&dc=true&ll=43.7%2C-79.42&radius=5.0'
+   Enter url: 'https://www.kijiji.ca/b-toronto-on/student-housing/k0l1700273?address=Toronto%2C%20ON&dc=true&ll=43.7%2C-79.42&radius=5.0'
    ```
 
 ### 2. **Excel Formatting**
