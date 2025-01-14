@@ -54,13 +54,12 @@ The scraper will create an Excel file named `kijiji_student_housing.xlsx` contai
 You can modify the script to adjust how it collects data and behaves. Here are a few areas you can customize:
 
 ### 1. **Base URL and Search URL**
-   - Modify the `base_url` and `page1_url` variables to target a different Kijiji location or search criteria.
+   - The code will ask you for a URL and you should give it the page you want the listing scraped from.
    - You will have to give it each individual page if there is multiple pages of results and it will generate another file.
 
    Example:
    ```python
-   base_url = 'https://www.kijiji.ca/'
-   page1_url = base_url + "b-toronto-on/student-housing/k0l1700273?address=Toronto%2C%20ON&dc=true&ll=43.7%2C-79.42&radius=5.0"
+   Enter url: 'https://www.kijiji.ca/' 'https://www.kijiji.ca/b-toronto-on/student-housing/k0l1700273?address=Toronto%2C%20ON&dc=true&ll=43.7%2C-79.42&radius=5.0'
    ```
 
 ### 2. **Excel Formatting**
